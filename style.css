@@ -42,25 +42,26 @@ nav{
     margin-right:10px;
 }
 
-/* cards */
-
 .all-cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     max-width: 1200px;
+    margin: auto;
+    
 }
 
-.card img{
+.card{
     height: 500px;
-    position: fixed;
+    /* flex: 0 0 33%;
+    flex-wrap: wrap; */
 }
 
 .heart{
     background-color: white;
     position:relative;
-    left: 321px;
-    top: 10px;
+    right: 28px;
+    bottom: 450px;
     font-size: 25px;
     padding-inline: 5px;
 }
@@ -70,8 +71,7 @@ nav{
     color: white;
     padding: 3px;
     position: relative;
-    top: 400px;
-    right:27px;
+    bottom: 70px;
 }
 
 .green{
@@ -79,7 +79,6 @@ nav{
     color: white;
     padding: 3px;
     position: relative;
-    top: 400px;
-    right:27px;
+    bottom: 70px;
 }
 
