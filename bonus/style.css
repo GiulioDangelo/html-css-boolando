@@ -171,3 +171,9 @@ nav{
     list-style-type: none;
 } 
 
+/* bonus */
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
