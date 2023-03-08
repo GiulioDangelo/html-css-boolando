@@ -57,7 +57,6 @@ nav{
     margin: 100px auto;
     flex-wrap:wrap ;
     gap: 10px;
-    
 }
 
 .card{
@@ -68,6 +67,8 @@ nav{
 
 .img-card{
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .heart{
@@ -107,6 +108,27 @@ nav{
 }
 
 
+/* effetti */
+
+.img-card:hover{
+    opacity: 0;
+}
+
+.img-container{
+    position: relative;
+    z-index: 1;
+}
+
+.hover{
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+}
+
+.green,.heart,.red{
+    z-index: 1;
+}
+
 
  /* footer */
  footer{
@@ -138,3 +160,5 @@ nav{
     justify-content:space-between;
     list-style-type: none;
 } 
+
+
